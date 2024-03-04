@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    height: 95vh;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+  } 
+
+.qr-card{
+    max-width: 34rem;
+    height: 51rem;
+
+    margin: 0 auto;
+    padding: 1.5rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+.qr-text{
+    padding: 0 1.5rem;
+}
+
+
+.heading {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5rem;
+    color:hsl(220, 15%, 55%)
+}
+
+.qr-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.attribution {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.attribution a:link,
+.attribution a:visited {
+    text-decoration: none;
+    color: hsl(220, 41%, 41%);
+    transition: all 0.3s;
+}
+
+.attribution a:hover,
+.attribution a:active {
+    color: hsl(189, 38%, 53%);
+    text-decoration: underline;
+    cursor: pointer;
+}
